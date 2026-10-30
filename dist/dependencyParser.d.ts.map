@@ -1,0 +1,1 @@
+{"version":3,"file":"dependencyParser.d.ts","sourceRoot":"","sources":["../src/dependencyParser.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAIH,OAAO,KAAK,EAAE,eAAe,EAAE,wBAAwB,EAAE,MAAM,SAAS,CAAC;AA2BzE;;;GAGG;AACH,wBAAgB,uBAAuB,CAAC,MAAM,EAAE,MAAM,GAAG,MAAM,EAAE,CAoDhE;AAkCD;;GAEG;AACH,wBAAsB,oBAAoB,CACxC,WAAW,EAAE,MAAM,EACnB,OAAO,GAAE,wBAA6B,GACrC,OAAO,CAAC,eAAe,CAAC,CAiE1B"}

@@ -1,0 +1,34 @@
+{
+  "name": "@anthropic/code-parser",
+  "version": "1.0.0",
+  "description": "Multi-language code parser using Tree-sitter for VS Code extension integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "node --experimental-vm-modules dist/test/smoke.js",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "parser",
+    "tree-sitter",
+    "ast",
+    "code-analysis",
+    "vscode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "web-tree-sitter": "^0.24.0",
+    "tree-sitter-wasms": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  }
+}
